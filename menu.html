@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1><i>SElECT YOUR SERVICE</i></h1>
+
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="login.html">HOME</a></li>
+
+<br />
+<li><a href="login">CONTACT</a></li>
+
+    
+  </ul>
+</nav>
+
+<article>
+<div>
+<style>
+h2{text-align:center}
+</style>
+<form action='scripts/menu.py' method='GET'>
+
+<h2><b>STORAGE AS A SERVICE</b><input type='radio' name='setup'  value='staas'/></h2>
+<br />
+<h2><b>CONTAINER AS A SERVICE</b><input type='radio' name='setup' value='docker' /></h2>
+<br />
+
+<h2><b>INFRASTRUCTURE AS ASERVICE</b><input type='radio' name='setup' value='iaas' /></h2>
+<br />
+
+<h2><b>PLATFORM AS A SERVICE</b><input type='radio' name='setup' value='pas' /></h2>
+<br />
+<h2><b>SOFTWARE AS A SERVICE</b><input type='radio' name='setup' value='saas' /></h2>
+<br />
+
+<center><input type='SUBMIT' /></center>
+<br />
+<footer><marquee> Cloud <marquee></footer>
+</div>
+</article>
+</form>
+</body>
+</html>

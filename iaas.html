@@ -1,0 +1,88 @@
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+nav ul {
+                                                              
+list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+   <h1><i>ENTER YOUR DETAILS</i></h1>
+
+</header>
+<nav>
+  <ul>
+    <li><a href="login.html">HOME</a></li>
+
+<br />
+<li><a href="menu.html">SERVICES</a></li>
+
+
+  </ul>
+</nav>
+
+<article>
+
+<div>
+<style>
+h2{text-align:center}
+</style>
+<form action='scripts/iaas.py'>
+<h2><center>Enter ur OS name <input name='osname' /><center></h2> 
+<h2><center>Enter RAM size in MB <input name='ramsize' /></h2><center> 
+<h2><center>Enter no. of CPU <input name='cpunumber' /></h2><center> 
+<h2><center>Enter storage size  <input name='storagesize' /></h2></center> 
+<h2><center>SELECT YOUR OS <select name='ostype'>
+<option>centos</option>
+<option>rhel7</option>
+<option>windows</option>
+</select>
+</h2>
+<br />
+
+<center><input type='submit' /></center><br/>
+<footer><marquee> Cloud <marquee></footer>
+</div>
+</article>
+</form>
+</body>
+</html>
+
+
+
+
+
+
